@@ -10,13 +10,13 @@ a shell script that prepares a directory for [MediaWiki-Vagrant][1].
    * `git clone -o github https://github.com/dan-nl/mw-vagrant-prep.git /path/to/your/project`
    * `cd /path/to/your/project`
 
-1. copy the bin/config.sample.sh file to config.sh.
-   1. `cp bin/config.sample.sh bin/config.sh`
+1. copy the `bin/config.sample.sh` file to `config.sh`.
+   * `cp bin/config.sample.sh bin/config.sh`
 
 1. alter the `bin/config.sh` contents as appropriate.
 
 1. run the script.
-   1. `./prep-mw-vagrant.sh`
+   * `./prep-mw-vagrant.sh`
 
 
 [1]:http://www.mediawiki.org/wiki/MediaWiki-Vagrant
