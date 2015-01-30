@@ -16,8 +16,7 @@ else
 	git checkout $COMMIT
 fi
 
-
 cd $PROJECT_DIR
 
-msg "INFO" ""
-msg "INFO" "clone MediaWiki-Vagrant complete"
+
+msg "INFO" "                                                              COMPLETE"

@@ -11,5 +11,4 @@ git submodule update --init --recursive
 cd "$PROJECT_DIR"
 
 
-msg "INFO" ""
-msg "INFO" "update git submodules complete"
+msg "INFO" "                                                              COMPLETE"

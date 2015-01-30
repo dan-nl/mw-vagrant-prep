@@ -15,8 +15,7 @@ else
 	vagrant box add $VAGRANT_BOX_NAME $VAGRANT_BOX_URL
 fi
 
-
 cd $PROJECT_DIR
 
-msg "INFO" ""
-msg "INFO" "get Vagrant box complete"
+
+msg "INFO" "                                                              COMPLETE"

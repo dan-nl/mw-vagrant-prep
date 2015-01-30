@@ -10,5 +10,4 @@ vagrant config git_user $GERRIT_USER
 cd "$PROJECT_DIR"
 
 
-msg "INFO" ""
-msg "INFO" "setting up MediaWiki Vagrant complete"
+msg "INFO" "                                                              COMPLETE"

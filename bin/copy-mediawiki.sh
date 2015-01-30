@@ -33,5 +33,4 @@ fi
 cd "$PROJECT_DIR"
 
 
-msg "INFO" ""
-msg "INFO" "copy MediaWiki core to vagrant complete"
+msg "INFO" "                                                              COMPLETE"

@@ -4,6 +4,7 @@
 . ./bin/begin.sh
 . ./bin/continue.sh
 . ./bin/config.sh
+. ./bin/check-requirements.sh
 . ./bin/clone-mw-vagrant.sh
 . ./bin/get-vagrant-box.sh
 . ./bin/clone-mediawiki.sh

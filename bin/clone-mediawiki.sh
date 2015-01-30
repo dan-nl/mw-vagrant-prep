@@ -14,5 +14,4 @@ fi
 cd "$PROJECT_DIR"
 
 
-msg "INFO" ""
-msg "INFO" "clone mediawiki complete"
+msg "INFO" "                                                              COMPLETE"

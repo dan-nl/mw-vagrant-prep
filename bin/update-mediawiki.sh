@@ -17,5 +17,4 @@ fi
 cd "$PROJECT_DIR"
 
 
-msg "INFO" ""
-msg "INFO" "git pull mediawiki core complete"
+msg "INFO" "                                                              COMPLETE"
