@@ -17,6 +17,4 @@ else
 fi
 
 cd $PROJECT_DIR
-
-
-msg "INFO" "                                                              COMPLETE"
+msgComplete

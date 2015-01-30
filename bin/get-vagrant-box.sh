@@ -1,6 +1,7 @@
 #!/bin/bash
 
-msgHeader "INFO" "get Vagrant box"
+msgRule "INFO"
+msg "INFO" "get Vagrant box"
 
 
 cd $PROJECT_DIR
@@ -15,7 +16,6 @@ else
 	vagrant box add $VAGRANT_BOX_NAME $VAGRANT_BOX_URL
 fi
 
+
 cd $PROJECT_DIR
-
-
-msg "INFO" "                                                              COMPLETE"
+msgComplete

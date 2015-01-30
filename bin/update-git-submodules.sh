@@ -1,14 +1,14 @@
 #!/bin/bash
 
-msgHeader "INFO" "update git submodules"
+msgRule "INFO"
+msg "INFO" "update git submodules"
 
 
-cd "$VAGRANT_DIR"
+cd $VAGRANT_DIR
 
 msg "INFO" "git submodule update ..."
 git submodule update --init --recursive
 
-cd "$PROJECT_DIR"
 
-
-msg "INFO" "                                                              COMPLETE"
+cd $PROJECT_DIR
+msgComplete

@@ -11,6 +11,10 @@ msg() {
 	echo -e "[$1]  $2"
 }
 
+msgComplete() {
+	msg "INFO" "                                                               COMPLETE"
+}
+
 ###
 # @param {string} $1
 # the type of message

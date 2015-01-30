@@ -24,4 +24,5 @@ remove_mediawiki=false
 COMMIT=master
 
 
-msg "INFO" "config setup complete"
+cd $PROJECT_DIR
+msgComplete

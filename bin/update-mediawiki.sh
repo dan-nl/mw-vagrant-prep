@@ -1,10 +1,11 @@
 #!/bin/bash
 
-msgHeader "INFO" "git pull mediawiki core"
+msgRule "INFO"
+msg "INFO" "git pull mediawiki core"
 
 
-if [ -d "$MW_CORE_DIR" ]; then
-	if [ ! -d "$MW_CORE_DIR/.git" ]; then
+if [ -d $MW_CORE_DIR ]; then
+	if [ ! -d $MW_CORE_DIR/.git ]; then
 		msg "INFO" "cannot update mediawiki"
 		msg "INFO" "the mediawiki core directory exists, however there is no .git directory"
 	else
@@ -14,7 +15,6 @@ if [ -d "$MW_CORE_DIR" ]; then
 	fi
 fi
 
-cd "$PROJECT_DIR"
 
-
-msg "INFO" "                                                              COMPLETE"
+cd $PROJECT_DIR
+msgComplete

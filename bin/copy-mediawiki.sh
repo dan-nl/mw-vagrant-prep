@@ -1,10 +1,11 @@
 #!/bin/bash
 
-msgHeader "INFO" "copy MediaWiki core to vagrant"
+msgRule "INFO"
+msg "INFO" "copy MediaWiki core to vagrant"
 
 
 copy_mediawiki_core=false
-cd "$PROJECT_DIR"
+cd $PROJECT_DIR
 
 if [ -d $VAGRANT_DIR/mediawiki ]; then
 	msg "INFO" "vagrant/mediawiki directory already exists"
@@ -25,12 +26,11 @@ if [ $copy_mediawiki_core == true ]; then
 	msg "INFO" "vagrant/mediawiki directory created"
 
 	msg "INFO" "copying mediawiki core to vagrant/mediawiki ..."
-	cd "$MW_CORE_DIR"
+	cd $MW_CORE_DIR
 	cd ..
 	cp -r core/ $VAGRANT_DIR/mediawiki
 fi
 
-cd "$PROJECT_DIR"
 
-
-msg "INFO" "                                                              COMPLETE"
+cd $PROJECT_DIR
+msgComplete

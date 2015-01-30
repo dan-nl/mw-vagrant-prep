@@ -1,13 +1,13 @@
 #!/bin/bash
 
-msgHeader "INFO" "setting up MediaWiki Vagrant"
+msgRule "INFO"
+msg "INFO" "setting up MediaWiki Vagrant"
 
 
-cd "$VAGRANT_DIR"
+cd $VAGRANT_DIR
 vagrant config git_user $GERRIT_USER
 ./setup.sh
 
-cd "$PROJECT_DIR"
 
-
-msg "INFO" "                                                              COMPLETE"
+cd $PROJECT_DIR
+msgComplete
