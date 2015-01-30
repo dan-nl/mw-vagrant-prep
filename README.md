@@ -1,6 +1,13 @@
 ## MediaWiki-Vagrant prep
 a shell script that prepares a directory for [MediaWiki-Vagrant][1].
 
+the script is intended to prepare a directory for use with MediaWiki-Vagrant. using config values in bin/config.sh it will:
+* clone vagrant into PROJECT_DIR/vagrant
+* if needed, add VAGRANT_BOX_NAME to the available Vagrant boxes
+* clone or git pull mediawiki core into MW_CORE_DIR/core
+* copy MW_CORE_DIR/core into PROJECT_DIR/vagrant/mediawiki
+* update PROJECT_DIR/vagrant/puppet submodules
+* setup PROJECT_DIR/vagrant
 
 ## use
 1. create a directory for your project
