@@ -1,0 +1,18 @@
+#!/bin/bash
+
+msgRule "INFO"
+msg "INFO" "MediaWiki-Vagrant prep                                            BEGIN"
+msg "INFO" ""
+msg "INFO" "this script is intended to prepare a directory for use with"
+msg "INFO" "MediaWiki-Vagrant."
+msg "INFO" ""
+msg "INFO" "using config values in bin/config.sh it will:"
+msg "INFO" ""
+msg "INFO" "* clone vagrant into PROJECT_DIR/vagrant"
+msg "INFO" "* if needed, add VAGRANT_BOX_NAME to the available Vagrant boxes"
+msg "INFO" "* clone or git pull mediawiki core into MW_CORE_DIR/core"
+msg "INFO" "* copy MW_CORE_DIR/core into PROJECT_DIR/vagrant/mediawiki"
+msg "INFO" "* update PROJECT_DIR/vagrant/puppet submodules"
+msg "INFO" "* setup PROJECT_DIR/vagrant"
+msgRule "INFO"
+msg "INFO" ""
