@@ -1,15 +1,17 @@
 #!/bin/bash
 
-. ./bin/functions.sh
-. ./bin/begin.sh
-. ./bin/continue.sh
-. ./bin/config.sh
-. ./bin/check-requirements.sh
-. ./bin/clone-mw-vagrant.sh
-. ./bin/get-vagrant-box.sh
-. ./bin/clone-mediawiki.sh
-. ./bin/update-mediawiki.sh
-. ./bin/copy-mediawiki.sh
-. ./bin/update-git-submodules.sh
-. ./bin/set-up-mw-vagrant.sh
-. ./bin/end.sh
+CWD="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+. $CWD/bin/functions.sh
+. $CWD/bin/begin.sh
+. $CWD/bin/continue.sh
+. $CWD/bin/config.sh
+. $CWD/bin/check-requirements.sh
+. $CWD/bin/clone-mw-vagrant.sh
+. $CWD/bin/get-vagrant-box.sh
+. $CWD/bin/clone-mediawiki.sh
+. $CWD/bin/update-mediawiki.sh
+. $CWD/bin/copy-mediawiki.sh
+. $CWD/bin/update-git-submodules.sh
+. $CWD/bin/set-up-mw-vagrant.sh
+. $CWD/bin/end.sh

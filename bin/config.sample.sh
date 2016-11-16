@@ -24,5 +24,4 @@ remove_mediawiki=false
 COMMIT=master
 
 
-cd $PROJECT_DIR
 msgComplete
