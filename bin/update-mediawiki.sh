@@ -9,9 +9,8 @@ if [ -d $MW_CORE_DIR ]; then
 		msg "INFO" "cannot update mediawiki"
 		msg "INFO" "the mediawiki core directory exists, however there is no .git directory"
 	else
-		cd "$MW_CORE_DIR"
 		msg "INFO" "git pull ..."
-		git pull
+		git -C "$MW_CORE_DIR" pull
 	fi
 fi
 

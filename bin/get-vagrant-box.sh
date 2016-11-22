@@ -4,7 +4,6 @@ msgRule "INFO"
 msg "INFO" "get Vagrant box"
 
 
-cd $PROJECT_DIR
 box_in_list=$( vagrant box list | grep $VAGRANT_BOX_NAME )
 
 if [[ $box_in_list == *$VAGRANT_BOX_NAME* ]]; then
@@ -17,5 +16,4 @@ else
 fi
 
 
-cd $PROJECT_DIR
 msgComplete

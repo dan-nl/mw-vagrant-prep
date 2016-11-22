@@ -3,7 +3,7 @@
 msgRule "INFO"
 msg "INFO" "check for required applications"
 
-cd $PROJECT_DIR
+
 req_git=$( which git )
 req_vagrant=$( which vagrant )
 
@@ -23,5 +23,5 @@ else
 	msg "INFO" "Vagrant found"
 fi
 
-cd $PROJECT_DIR
+
 msgComplete
