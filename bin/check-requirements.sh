@@ -16,7 +16,7 @@ else
 fi
 
 if [[ $req_vagrant != *vagrant* ]]; then
-	msg "INFO" "missing Vagrant - you’ll need to install Vagrant first"
+	msg "INFO" "missing vagrant - you’ll need to install vagrant first - https://www.vagrantup.com/"
 	msg "INFO" ""
 	exit
 else

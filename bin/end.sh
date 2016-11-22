@@ -5,5 +5,5 @@ msg "INFO" "MediaWiki Vagrant prep                                         COMPL
 msgRule "INFO"
 
 echo
-echo "cd into vagrant then run vagrant up"
+echo "cd into $PROJECT_DIR/vagrant then run vagrant up"
 echo
