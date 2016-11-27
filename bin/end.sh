@@ -3,7 +3,6 @@
 msgRule "INFO"
 msg "INFO" "MediaWiki Vagrant prep                                         COMPLETE"
 msgRule "INFO"
-
-echo
-echo "cd into $PROJECT_DIR/vagrant then run vagrant up"
-echo
+msg "INFO" ""
+msg "INFO" "cd into $PROJECT_DIR/vagrant"
+msg "INFO" "run vagrant up"

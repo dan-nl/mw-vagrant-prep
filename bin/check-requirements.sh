@@ -2,6 +2,7 @@
 
 msgRule "INFO"
 msg "INFO" "check for required applications"
+msg "INFO" ""
 
 
 req_git=$( which git )

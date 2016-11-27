@@ -2,7 +2,7 @@
 
 msgRule "INFO"
 msg "INFO" "get Vagrant box"
-
+msg "INFO" ""
 
 box_in_list=$( vagrant box list | grep $VAGRANT_BOX_NAME )
 

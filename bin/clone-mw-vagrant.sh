@@ -2,6 +2,7 @@
 
 msgRule "INFO" ""
 msg "INFO" "clone MediaWiki-Vagrant"
+msg "INFO" ""
 
 
 if [ -d $VAGRANT_DIR ]; then

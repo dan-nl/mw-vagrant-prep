@@ -2,6 +2,7 @@
 
 msgRule "INFO"
 msg "INFO" "setting up MediaWiki Vagrant"
+msg "INFO" ""
 
 
 cd $VAGRANT_DIR

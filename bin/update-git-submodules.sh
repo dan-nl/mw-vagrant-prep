@@ -2,6 +2,7 @@
 
 msgRule "INFO"
 msg "INFO" "update git submodules"
+msg "INFO" ""
 
 
 msg "INFO" "git submodule update ..."
