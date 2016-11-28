@@ -22,6 +22,7 @@ getcwd() {
 getcwd
 
 . $CWD/bin/functions.sh
+. $CWD/bin/check-config.sh
 . $CWD/bin/config.sh
 . $CWD/bin/begin.sh
 . $CWD/bin/continue.sh
